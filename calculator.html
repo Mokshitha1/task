@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: violet;
+    }
+    .calculator {
+      width: 300px;
+      margin-top: 50px;
+    }
+  </style>
+  <title>Simple Calculator</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="calculator card">
+    <div class="card-body">
+      <input type="text" id="display" class="form-control mb-2 bg-dark" readonly>
+      <div class="row">
+        <button class="btn btn-secondary col-3 bg-warning" > 7 </button>
+        <button class="btn btn-secondary col-3 bg-warning" >8</button>
+        <button class="btn btn-secondary col-3 bg-warning">9</button>
+        <button class="btn btn-danger col-3 bg-danger" >C</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col-3 bg-warning" >4</button>
+        <button class="btn btn-secondary col-3 bg-warning" >5</button>
+        <button class="btn btn-secondary col-3 bg-warning" >6</button>
+        <button class="btn btn-secondary col-3 bg-warning" >+</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col-3 bg-warning" >1</button>
+        <button class="btn btn-secondary col-3 bg-warning" >2</button>
+        <button class="btn btn-secondary col-3 bg-warning " >3</button>
+        <button class="btn btn-secondary col-3 bg-warning" >-</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col-3 bg-warning" >0</button>
+        <button class="btn btn-secondary col-3 bg-warning" >.</button>
+        <button class="btn btn-secondary col-3 bg-warning" >=</button>
+        <button class="btn btn-secondary col-3 bg-warning" >*</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-secondary col-9 bg-warning" >/</button>
+        <button class="btn btn-secondary col-3 bg-warning" ><-</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

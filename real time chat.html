@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <title>Simple Chat App</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+           
+        margin-top:50px;
+        }
+
+        .chat-box {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 15px;
+        }
+
+        .input-group {
+            margin-top: 15px;
+        }
+    
+    </style>
+</head>
+<body>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="chat-box" id="chatBox">
+                <div class="text-center "> 
+                    <div class="header">
+                    <h4><i>Welcome To chat-Box</i></h4>
+                    </div>
+                </div><br> 
+                <div class="float-sm-left">Hello! :)</div><br>
+                <hr>
+                <div class="float-sm-right">Hey! </div><br>
+                <hr>
+                <div class="float-sm-left">How are you ?</div><br>
+                <hr>
+                <div class="float-sm-right">I'm fine.</div><br>
+                <hr>
+                <div class="float-sm-left">What's your plan today?</div><br>
+                <hr>
+                <div class="float-sm-right">I do wanna play video games, will you join? </div><br>
+                <hr>
+                <div class="float-sm-left">Offcours i'll</div><br>
+                <hr>
+                <div class="float-sm-right">Sure :)</div><br>
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type your message here...">
+              <button class="btn btn-success" type="button">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
